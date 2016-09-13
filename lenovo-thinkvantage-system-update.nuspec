@@ -4,15 +4,12 @@
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
     <version>5.07.0032</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
-    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
-    <!-- ============================== -->
-
     <title>Lenovo ThinkVantage System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>https://support.lenovo.com/au/en/documents/tvsu-update</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/lenovo-thinkvantage-system-update.png</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/lenovo-thinkvantage-system-update.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2016. All rights reserved</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>http://support.lenovo.com/au/en/downloads/migr-73695</docsUrl>

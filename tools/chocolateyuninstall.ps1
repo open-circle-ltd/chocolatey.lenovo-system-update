@@ -10,18 +10,18 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName = 'lenovo-thinkvantage-system-update'
-$softwareName = 'lenovo-thinkvantage-system-update*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-$installerType = 'MSI' 
-#$installerType = 'EXE' 
+$softwareName = 'Lenovo*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+#$installerType = 'MSI' 
+$installerType = 'EXE' 
 
-$silentArgs = '/qn /norestart'
+#$silentArgs = '/qn /norestart'
 # https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
 $validExitCodes = @(0, 3010, 1605, 1614, 1641)
 if ($installerType -ne 'MSI') {
   # The below is somewhat naive and built for EXE installers
   # Uncomment matching EXE type (sorted by most to least common)
   #$silentArgs = '/S'           # NSIS
-  #$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
+  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
   #$silentArgs = '/s'           # InstallShield
   #$silentArgs = '/s /v"/qn"' # InstallShield with MSI
   #$silentArgs = '/s'           # Wise InstallMaster
