@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lenovo-thinkvantage-system-update</id>
+    <version>5.07.0032</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>flcdrg</owners>
+    <!-- ============================== -->
+
+    <title>Lenovo ThinkVantage System Update</title>
+    <authors>Lenovo</authors>
+    <projectUrl>https://support.lenovo.com/au/en/documents/tvsu-update</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/lenovo-thinkvantage-system-update.png</iconUrl>-->
+    <copyright>(C) Copyright Lenovo 2016. All rights reserved</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://support.lenovo.com/au/en/downloads/migr-73695</docsUrl>
+    <tags>lenovo thinkvantage system update bios drivers admin</tags>
+    <summary>ThinkVantage System Update</summary>
+    <description>ThinkVantage System Update
+for Microsoft Windows 7, Windows 8, Windows 8.1, Windows 10
+
+System Update downloads software, driver and BIOS updates
+from a Lenovo server directly over the Internet without 
+requiring specific user knowledge of where the package is 
+located or if it is needed by the target system.
+
+Other ways in which ThinkVantage Technologies help you keep 
+your system up to date and secure are:
+
+- Provides a direct connection to Lenovo Service and Support 
+  for ThinkPad and ThinkCentre drivers, software and BIOS 
+  updates.
+- Helps maximize your system performance and minimize security
+  vulnerability.</description>
+    <releaseNotes>
+2016-07-07 release
+==================
+- [Important] Improve reliability of schedule task
+- [New] Support command line
+- (fix) Fix some issues	
+	</releaseNotes>
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
