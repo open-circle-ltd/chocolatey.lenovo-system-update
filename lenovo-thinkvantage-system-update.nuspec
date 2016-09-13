@@ -9,7 +9,7 @@
     <title>Lenovo ThinkVantage System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>https://support.lenovo.com/au/en/documents/tvsu-update</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/lenovo-thinkvantage-system-update.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/tvsu.jpg</iconUrl>
     <copyright>(C) Copyright Lenovo 2016. All rights reserved</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>http://support.lenovo.com/au/en/downloads/migr-73695</docsUrl>
