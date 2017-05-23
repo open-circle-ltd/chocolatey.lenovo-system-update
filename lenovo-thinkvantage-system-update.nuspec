@@ -3,17 +3,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0045</version>
+    <version>5.07.0053</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Lenovo ThinkVantage System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>https://support.lenovo.com/au/en/solutions/ht080136</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/tvsu.jpg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/tvsu.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2017. All rights reserved</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <docsUrl>http://support.lenovo.com/au/en/downloads/migr-73695</docsUrl>
-    <tags>lenovo thinkvantage system update bios drivers admin</tags>
+    <docsUrl>https://support.lenovo.com/au/en/solutions/ht003029</docsUrl>
+    <tags>lenovo thinkvantage thinkpad thinkcenter thinkstation system update bios drivers admin</tags>
     <summary>ThinkVantage System Update</summary>
     <description>#### ThinkVantage System Update
 	
@@ -35,10 +35,12 @@ your system up to date and secure are:
 
 ThinkVantage System Update is supported on the following systems:
 
--    All ThinkPad
--    All ThinkCentre
--    All ThinkStation
--    Lenovo V/B/K/E Series
+- Lenovo 3000 C100, C200, N100, N200, V100, V200
+- Lenovo 3000 J100, J105, J110, J115, J200, J200p, J205, S200, S200p, S205
+- All ThinkPad
+- All ThinkCentre
+- All ThinkStation
+- Lenovo V/B/K/E Series
 
 Note: ThinkPad S440 &amp; S540 does not support Windows 8.1
 
@@ -54,17 +56,12 @@ The following operating system are supported:
 -    Microsoft Windows 7
 	</description>
     <releaseNotes>
-##### 5.07.0045 2017-01-18 release
+##### Version 5.07.0053
 
-- [New] Updated Certificate Validation library
-- [New] Updated Quality Statistics library
-
-##### 5.07.0042 2016-12-10 release
-
-- [New] Support TLS1.2
-- [New] Integrate Certificate Validation library
-- [New] Integrate Quality Statistics library
-- [Important] Change Schedule Update from 1 per month to 1 per week
+- [New] Support recommend driver auto-update feature (default setting: critical update and recommend driver) 
+- [New] Online subscription file support 
+- [New] Support cloud repository
+- (Fix) Fixed some issues
 	</releaseNotes>
 
   </metadata>
