@@ -17,19 +17,12 @@
     <summary>ThinkVantage System Update</summary>
     <description>#### ThinkVantage System Update
 	
-System Update downloads software, driver and BIOS updates
-from a Lenovo server directly over the Internet without 
-requiring specific user knowledge of where the package is 
-located or if it is needed by the target system.
+System Update downloads software, driver and BIOS updates from a Lenovo server directly over the Internet without requiring specific user knowledge of where the package is located or if it is needed by the target system.
 
-Other ways in which ThinkVantage Technologies help you keep 
-your system up to date and secure are:
+Other ways in which ThinkVantage Technologies help you keep your system up to date and secure are:
 
-- Provides a direct connection to Lenovo Service and Support 
-  for ThinkPad and ThinkCentre drivers, software and BIOS 
-  updates.
-- Helps maximize your system performance and minimize security
-  vulnerability.
+- Provides a direct connection to Lenovo Service and Support for ThinkPad and ThinkCentre drivers, software and BIOS updates.
+- Helps maximize your system performance and minimize security vulnerability.
 
 ##### Supported Systems
 
@@ -63,7 +56,6 @@ The following operating system are supported:
 - [New] Support cloud repository
 - (Fix) Fixed some issues
 	</releaseNotes>
-
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
