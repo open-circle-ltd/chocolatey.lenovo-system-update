@@ -3,20 +3,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0053</version>
+    <version>5.07.0059</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Lenovo ThinkVantage System Update</title>
     <authors>Lenovo</authors>
-    <projectUrl>https://support.lenovo.com/au/en/solutions/ht080136</projectUrl>
+    <projectUrl>http://support.lenovo.com/au/en/downloads/ds012808</projectUrl>
     <iconUrl>https://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/tvsu.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2017. All rights reserved</copyright>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://support.lenovo.com/au/en/solutions/ht100141</licenseUrl>
     <docsUrl>https://support.lenovo.com/au/en/solutions/ht003029</docsUrl>
     <tags>lenovo thinkvantage thinkpad thinkcenter thinkstation system update bios drivers admin</tags>
     <summary>ThinkVantage System Update</summary>
     <description>#### ThinkVantage System Update
-	
+
 System Update downloads software, driver and BIOS updates from a Lenovo server directly over the Internet without requiring specific user knowledge of where the package is located or if it is needed by the target system.
 
 Other ways in which ThinkVantage Technologies help you keep your system up to date and secure are:
@@ -49,13 +50,15 @@ The following operating system are supported:
 -    Microsoft Windows 7
 	</description>
     <releaseNotes>
-##### Version 5.07.0053
+##### Version 5.07.0059 2017-06-09 release
 
-- [New] Support recommend driver auto-update feature (default setting: critical update and recommend driver) 
-- [New] Online subscription file support 
-- [New] Support cloud repository
-- (Fix) Fixed some issues
+- (New) Integrate certificate needed by CV library
+- (New) Apply InnoSetup instead of Installsheild
+- (Fix) Fixed some issues 
 	</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
