@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0059</version>
+    <version>5.07.0065</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Lenovo ThinkVantage System Update</title>
@@ -50,11 +50,10 @@ The following operating system are supported:
 -    Microsoft Windows 7
 	</description>
     <releaseNotes>
-##### Version 5.07.0059 2017-06-09 release
+##### Version 5.07.0065 2017-08-31 release
 
-- (New) Integrate certificate needed by CV library
-- (New) Apply InnoSetup instead of Installsheild
-- (Fix) Fixed some issues 
+- (Fix) Fixed some issues
+- (New) Support check file CRC defined in XML2 by SHA256
 	</releaseNotes>
     <dependencies>
       <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
