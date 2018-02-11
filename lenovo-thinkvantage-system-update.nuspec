@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-thinkvantage-system-update</id>
-    <version>5.07.0065</version>
+    <version>5.07.0070</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update</packageSourceUrl>
     <owners>flcdrg</owners>
-    <title>Lenovo ThinkVantage System Update</title>
+    <title>Lenovo System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>http://support.lenovo.com/au/en/downloads/ds012808</projectUrl>
     <iconUrl>https://cdn.rawgit.com/flcdrg/chocolatey-lenovo-thinkvantage-system-update/master/icons/tvsu.png</iconUrl>
@@ -50,10 +50,9 @@ The following operating system are supported:
 -    Microsoft Windows 7
 	</description>
     <releaseNotes>
-##### Version 5.07.0065 2017-08-31 release
+##### Version 5.07.0070 2018-01-25 release
 
-- (Fix) Fixed some issues
-- (New) Support check file CRC defined in XML2 by SHA256
+- (Fix) Fixed some issues, improves user experience.
 	</releaseNotes>
     <dependencies>
       <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
