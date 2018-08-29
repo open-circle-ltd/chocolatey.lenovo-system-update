@@ -32,25 +32,3 @@ The following operating system are supported:
 * Microsoft Windows 8.1
 * Microsoft Windows 8
 * Microsoft Windows 7
-
-## Installation
-
-installation without parameters.
-
-```ps1
- choco install lenovo-system-update
-```
-
-## Disclaimer
-
-These Chocolatey Packages only contain installation routines. The software itself is downloaded from the official sources of the software developer. ITIGO AG has no affilation with the software developer.
-
-## Author
-
-* [David Gardiner](https://david.gardiner.net.au)
-* [Simon Bärlocher](https://sbaerlocher.ch)
-* [ITIGO AG](https://www.itigo.ch)
-
-## License
-
-This project is under the Apache-2.0 License. See the [LICENSE](LICENSE) file for the full license text.
