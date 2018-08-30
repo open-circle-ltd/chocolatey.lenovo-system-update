@@ -32,3 +32,7 @@ The following operating system are supported:
 * Microsoft Windows 8.1
 * Microsoft Windows 8
 * Microsoft Windows 7
+
+## Package Parameters
+
+* `/CleanStartmenu` Removes frequently used Lenovo System Update shortcuts from the Startmenu.

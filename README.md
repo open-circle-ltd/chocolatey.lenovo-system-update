@@ -33,12 +33,22 @@ The following operating system are supported:
 * Microsoft Windows 8
 * Microsoft Windows 7
 
+## Package Parameters
+
+* `/CleanStartmenu` Removes frequently used Lenovo System Update shortcuts from the Startmenu.
+
 ## Installation
 
 installation without parameters.
 
 ```ps1
  choco install lenovo-system-update
+```
+
+installation with parameters.
+
+```ps1
+ choco install lenovo-system-update --params="'/CleanStartmenu'"
 ```
 
 ## Disclaimer
