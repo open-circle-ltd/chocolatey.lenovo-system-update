@@ -8,7 +8,7 @@
     <title>Lenovo System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>http://support.lenovo.com/au/en/downloads/ds012808</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icons/lenovo-system-update.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icon/lenovo-system-update.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <licenseUrl>https://support.lenovo.com/au/en/solutions/ht100141</licenseUrl>
