@@ -7,8 +7,7 @@ changelog_format: json
 
 # Regex for Version
 version: "{{ register_changelog.json |
-  json_query('items[*].version') |
-  join(', ')
+  regex_search('([0-9]+.[0-9]+.[0-9]+.[0-9])')
   }}"
 
 # Download URL
