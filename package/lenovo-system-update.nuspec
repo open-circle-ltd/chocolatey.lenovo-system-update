@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. --><package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-system-update</id>
-    <version>5.07.0084</version>
+    <version>5.07.0088</version>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-system-update</packageSourceUrl>
     <owners>flcdrg, ITIGO AG, Simon Bärlocher</owners>
     <title>Lenovo System Update</title>
