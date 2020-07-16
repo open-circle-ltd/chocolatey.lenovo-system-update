@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $toolsDir              = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters     = Get-PackageParameters
-$urlPackage = 'https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.07.0088.exe'
-$checksumPackage = 'f8f2fc454b9f5ddc5b63c479e24bd422b3bc1df329760e0d30b92b45360d78a2677ed71e2a17a116e90efc7b29cdef91ff6ef610fd9e5dbebdd40bf79e31beb9'
+$urlPackage = 'https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.07.0097.exe'
+$checksumPackage = 'a19f53d2088b9bcf09b150a1eb7d8d4c550d9b9a42204c12a623bc53cdc9016d61497109a064816616c878b1952ce5a02b02db5c73a34d5bbb8e79903467a852'
 $checksumTypePackage = 'SHA512'
 
 Import-Module -Name "$($toolsDir)\helpers.ps1"
