@@ -2,8 +2,6 @@
 
 ![Build](https://github.com/open-circle-ltd/chocolatey.lenovo-system-update/actions/workflows/chocomilk.yml/badge.svg?branch=master)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) 
-[![Chocolatey](https://img.shields.io/chocolatey/v/lenovo-system-update?label=package%20version)](https://chocolatey.org/packages/lenovo-system-update) 
-[![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-system-update?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/lenovo-system-update)
 
 ## Description
 
