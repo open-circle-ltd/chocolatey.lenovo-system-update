@@ -1,0 +1,32 @@
+name: Converted Workflow
+'on':
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  Build:
+    runs-on: '${{ matrix.os }}'
+    strategy:
+      matrix:
+        os:
+          - ubuntu-18.04
+        python-version:
+          - 3.6
+    steps:
+      - name: 'Set up Python ${{ matrix.python-version }}'
+        uses: actions/setup-python@v2
+        with:
+          python-version: '${{ matrix.python-version }}'
+      - uses: actions/checkout@v2
+      - run: pip install ansible
+      - run: >-
+          wget
+          https://raw.githubusercontent.com/itigoag/chocomilk/develop/Makefile
+          -O ../Makefile
+      - run: ansible --version
+      - run: cd ../
+      - run: make before
+      - run: make play
