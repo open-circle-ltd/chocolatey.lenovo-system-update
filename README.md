@@ -1,6 +1,9 @@
 # Chocolatey Package: Lenovo System Update
 
-[![Build Status](https://img.shields.io/travis/itigoag/chocolatey.lenovo-system-update?style=flat-square)](https://travis-ci.org/itigoag/chocolatey.lenovo-system-update) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) [![Chocolatey](https://img.shields.io/chocolatey/v/lenovo-system-update?label=package%20version)](https://chocolatey.org/packages/lenovo-system-update) [![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-system-update?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/lenovo-system-update)
+![Build](https://github.com/open-circle-ltd/chocolatey.lenovo-system-update/actions/workflows/chocomilk.yml/badge.svg?branch=master)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) 
+[![Chocolatey](https://img.shields.io/chocolatey/v/lenovo-system-update?label=package%20version)](https://chocolatey.org/packages/lenovo-system-update) 
+[![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-system-update?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/lenovo-system-update)
 
 ## Description
 
