@@ -28,5 +28,4 @@ jobs:
           -O ../Makefile
       - run: ansible --version
       - run: cd ../
-      - run: make before
       - run: make play
