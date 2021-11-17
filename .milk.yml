@@ -36,7 +36,7 @@ deploy:
   - provider: github
     name: "OpenCircle-Choco-Bot"
     email: "chocomilk@open-circle.ch"
-    url: github.com/open-circle-ltd/chocolatey.bria.git
+    url: github.com/open-circle-ltd/chocolatey.lenovo-system-update.git
     key: "{{ lookup('env','GITHUB_API_KEY') }}"
 
 # Notification
