@@ -2,20 +2,23 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. --><package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-system-update</id>
-    <version>5.07.0097</version>
-    <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-system-update</packageSourceUrl>
-    <owners>flcdrg, ITIGO AG, Simon Bärlocher</owners>
+    <version>5.07.0131</version>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.lenovo-system-update</packageSourceUrl>
+    <owners>flcdrg, Open-Circle AG, Simon Bärlocher</owners>
     <title>Lenovo System Update</title>
     <authors>Lenovo</authors>
     <projectUrl>http://support.lenovo.com/au/en/downloads/ds012808</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icon/lenovo-system-update.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.lenovo-system-update@master/icon/lenovo-system-update.png</iconUrl>
     <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <licenseUrl>https://support.lenovo.com/au/en/solutions/ht100141</licenseUrl>
     <docsUrl>https://support.lenovo.com/au/en/solutions/ht003029</docsUrl>
     <tags>lenovo thinkvantage thinkpad thinkcenter thinkstation system update bios drivers admin</tags>
     <summary>Lenovo System Update</summary>
-    <description><![CDATA[
+    <description>[![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-system-update?label=package%20downloads&amp;style=flat-square)](https://chocolatey.org/packages/lenovo-system-update)
+
+## Description
+
 System Update downloads software, driver and BIOS updates from a Lenovo server directly over the Internet without requiring specific user knowledge of where the package is located or if it is needed by the target system.
 
 Other ways in which ThinkVantage Technologies help you keep your system up to date and secure are:
@@ -34,7 +37,7 @@ ThinkVantage System Update is supported on the following systems:
 - All ThinkStation
 - Lenovo V/B/K/E Series
 
-Note: ThinkPad S440 &amp; S540 does not support Windows 8.1
+Note: ThinkPad S440 &amp;amp; S540 does not support Windows 8.1
 
 ThinkVantage System Update will support additional models as content is created for them.
 
@@ -47,10 +50,7 @@ The following operating system are supported:
 - Microsoft Windows 8
 - Microsoft Windows 7
 
-## Package Parameters
-
-- `/CleanStartmenu` Removes frequently used Lenovo System Update shortcuts from the Startmenu.
-]]></description>
+</description>
     <releaseNotes>
 ##### Version 5.07.0072 2018-04-20 release
 
