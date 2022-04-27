@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. --><package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lenovo-system-update</id>
-    <version>5.07.0131</version>
+    <version>5.07.0136</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.lenovo-system-update</packageSourceUrl>
     <owners>flcdrg, Open-Circle AG, Simon Bärlocher</owners>
     <title>Lenovo System Update</title>
@@ -15,9 +15,7 @@
     <docsUrl>https://support.lenovo.com/au/en/solutions/ht003029</docsUrl>
     <tags>lenovo thinkvantage thinkpad thinkcenter thinkstation system update bios drivers admin</tags>
     <summary>Lenovo System Update</summary>
-    <description>[![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-system-update?label=package%20downloads&amp;style=flat-square)](https://chocolatey.org/packages/lenovo-system-update)
-
-## Description
+    <description>## Description
 
 System Update downloads software, driver and BIOS updates from a Lenovo server directly over the Internet without requiring specific user knowledge of where the package is located or if it is needed by the target system.
 
@@ -49,6 +47,8 @@ The following operating system are supported:
 - Microsoft Windows 8.1
 - Microsoft Windows 8
 - Microsoft Windows 7
+
+## Package Parameters
 
 </description>
     <releaseNotes>
